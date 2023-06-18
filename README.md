@@ -1,11 +1,11 @@
-About r-redlistr
-================
+About r-redlistr-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-redlistr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/red-list-ecosystem/redlistr
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-redlistr-feedstock/blob/main/LICENSE.txt)
 
 Summary: A toolbox created by members of the International Union for Conservation of Nature (IUCN) Red List of Ecosystems Committee for Scientific Standards. Primarily, it is a set of tools suitable for calculating the metrics required for making assessments of species and ecosystems against the IUCN Red List of Threatened Species and the IUCN Red List of Ecosystems categories and criteria. See the IUCN website for detailed guidelines, the criteria, publications and other information.
 
