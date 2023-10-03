@@ -1,4 +1,4 @@
-{% set version = '1.0.3' %}
+{% set version = "1.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/redlistr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/redlistr/redlistr_{{ version }}.tar.gz
-  sha256: 9949f23e668e7b560590993d3e0aa6502fb96fed6a67bbcfe13ebf20abeb7200
+  sha256: c5dea8423c54620198b4d890fdb681d322ba01c2115f900915c5638619bcadd4
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -45,12 +45,8 @@ test:
 about:
   home: https://github.com/red-list-ecosystem/redlistr
   license: GPL-3.0-or-later
-  summary: A toolbox created by members of the International Union for Conservation of Nature
-    (IUCN) Red List of Ecosystems Committee for Scientific Standards. Primarily, it
-    is a set of tools suitable for calculating the metrics required for making assessments
-    of species and ecosystems against the IUCN Red List of Threatened Species and the
-    IUCN Red List of Ecosystems categories and criteria. See the IUCN website for detailed
-    guidelines, the criteria, publications and other information.
+  summary: A toolbox created by members of the International Union for Conservation of Nature (IUCN) Red List of Ecosystems Committee for Scientific Standards. Primarily, it is a set of tools suitable for calculating the metrics required for making assessments of species and ecosystems against the IUCN Red List of Threatened
+    Species and the IUCN Red List of Ecosystems categories and criteria. See the IUCN website for detailed guidelines, the criteria, publications and other information.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
