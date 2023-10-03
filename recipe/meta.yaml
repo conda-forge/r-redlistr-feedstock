@@ -28,14 +28,16 @@ requirements:
     - r-base
     - r-plyr
     - r-raster >=2.5_8
-    - r-rgeos
+    - r-sf
     - r-sp >=1.2_4
+    - r-terra
   run:
     - r-base
     - r-plyr
     - r-raster >=2.5_8
-    - r-rgeos
+    - r-sf
     - r-sp >=1.2_4
+    - r-terra
 
 test:
   commands:
