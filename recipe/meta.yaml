@@ -29,6 +29,11 @@ requirements:
     - r-sf
     - r-sp >=1.2_4
     - r-terra
+    - r-dplyr
+    - r-ggplot2
+    - r-rlang
+    - r-stringr
+    - r-mgcv
   run:
     - r-base
     - r-plyr
@@ -36,6 +41,11 @@ requirements:
     - r-sf
     - r-sp >=1.2_4
     - r-terra
+    - r-dplyr
+    - r-ggplot2
+    - r-rlang
+    - r-stringr
+    - r-mgcv
 
 test:
   commands:
